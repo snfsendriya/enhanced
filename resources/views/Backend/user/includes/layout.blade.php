@@ -1,0 +1,5 @@
+@include('Backend/user/includes/header')
+@include('Backend/user/includes/left_sidebar')
+@include('Backend/user/includes/top_bar')
+@yield('main-content')
+@include('Backend/user/includes/footer')
